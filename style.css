@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.content{
+    padding: 15% 0 0 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #2445a8;
+    color: #2445a8;
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+    transition: 1s;
+}
+.row{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+
+}
+#quote_area{
+  border-radius: 2%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  background-color: white;
+  max-width: 800px;
+  min-width: 600px;
+
+}
+#quote{
+  text-align: justify;
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  padding:1%;
+  /*background-color: white;*/
+  margin: 2% 0 0 2%;
+}
+#sign{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Merriweather', serif;
+  padding: 1%;
+  /*background-color:blue;*/
+  text-align: right;
+  margin:0 2% 0 0;
+  font-size: 20px;
+}
+#tweet{
+  width: 50px;
+  /*background-color: yellow;*/
+}
+#facebook{
+  width: 50px;
+  /*background-color: orange;*/
+}
+#button{
+  width: 72.17px;
+  /*background-color:grey;*/
+}
+#empty{
+  width:50%;
+}
+#submit{
+  height: 36px;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Merriweather', serif;
+  background: #2445a8;
+  color: white;
+
+}
+.fa {
+    padding: 10px;
+    font-size: 25px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
